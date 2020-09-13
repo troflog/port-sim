@@ -12,12 +12,20 @@ var layout = {
   autosize: true // set autosize to rescale
 };
 
+
+
 var config = {
-  'displayModeBar': false
+  'displayModeBar': false,
+   responsive: true
 }
 
 Plotly.newPlot('myDivPlotly', data, layout, config);
+Plotly.newPlot('othterplot', data, layout, config);
 
+
+
+/*
+Old way of responsive
 // update the layout to expand to the available size
 // when the window is resized
 window.onresize = function() {
@@ -26,3 +34,4 @@ window.onresize = function() {
         'yaxis.autorange': true
     });
 };
+*/
