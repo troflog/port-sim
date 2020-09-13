@@ -1,7 +1,7 @@
 html,body{height:100%;}
 
-.setheight{
-  height:400px;
+.setheightcontainer{
+  height:calc(100% - 60px);
   background: yellow;
 }
 
@@ -30,4 +30,8 @@ html,body{height:100%;}
 .bg-pink {
     background: rgb(196, 50, 189);
     height: 90%;
+}
+.plotsize{
+  width: 90%;
+  height: 90%;
 }

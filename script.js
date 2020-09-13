@@ -19,8 +19,8 @@ var config = {
    responsive: true
 }
 
-Plotly.newPlot('myDivPlotly', data, layout, config);
-Plotly.newPlot('othterplot', data, layout, config);
+Plotly.newPlot('plot-1', data, layout, config);
+Plotly.newPlot('plot-2', data, layout, config);
 
 
 
