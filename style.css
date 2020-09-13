@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+    height: 100%;
+}
+  
+
+  /* Some custom styles to beautify this example */
+.box-style{
+    border:4px solid rgb(128, 25, 25);
+    
+}
+.demo-content{
+    padding: 15px;
+    font-size: 18px;
+    background: #dbdfe5;
+    margin-bottom: 15px;
+}
+.demo-content.bg-alt{
+    background: #abb1b8;
+}
+
+.plotstyle{
+    background: yellow;
+    /* height: 300px; */
+    
+}
+
+.row-style{
+    padding: 10px;
+    border:4px solid rgb(128, 25, 25);
+}
+
+.row2-style{
+    border:4px solid rgb(54, 128, 25);   
+}
+
+
+.row3-style{
+    border:4px solid rgb(27, 25, 128);   
+}

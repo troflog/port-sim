@@ -7,7 +7,7 @@ var data = [{
 var layout = {
   barmode: 'stack',
   margin: {
-    t: 0
+    t: 2
   },
   autosize: true // set autosize to rescale
 };
