@@ -18,23 +18,13 @@ html,body{height:100%;}
   background: rgb(196,50,53);
 }
 
-.bg-black {
-  background: rgb(6, 7, 6);
-  height: 50%;
-}
+
 
 .bg-green {
   background: rgb(104, 196, 50);
-  height: 100%;
+  
 }
 .bg-pink {
     background: rgb(196, 50, 189);
-    height: 100%;
-}
-.plotsize{
-  width: 90%;
-  height: 90%;
-  /* border-style: solid;
-  border-width: 5px;
-  border-color: navy; */
+    
 }
