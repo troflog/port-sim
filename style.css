@@ -17,8 +17,7 @@ html,body{
 
 
 .bg-blue {
-  background: rgb(50,101,196);
-  margin:auto;
+  background: rgb(50,101,196);  
 }
 .bg-red {
   background: rgb(196,50,53);
@@ -26,15 +25,18 @@ html,body{
 }
 
 
-
-
 .bg-pink {
     background: rgb(187, 130, 184);
-    height:50%;  
+    /* height:50%;   */
     
 }
 .bg-green {
-  background: rgb(202, 206, 200);
-  height:50%;
+  background: rgb(42, 156, 27);
+  /* height:50%; */
   
 }
+
+.plotsize{  
+  height: 60%;
+  width: 60%;
+}  
